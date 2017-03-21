@@ -1,16 +1,11 @@
 <?php
 
+namespace App\Libraries\Predict;
+
 /*
  * Ported from gpredict to PHP by Bill Shupp
  */
 
-require_once 'Predict.php';
-require_once 'Predict/Math.php';
-require_once 'Predict/Time.php';
-require_once 'Predict/Vector.php';
-require_once 'Predict/Geodetic.php';
-require_once 'Predict/ObsSet.php';
-require_once 'Predict/SGPObs.php';
 
 /*
  * Unit Solar

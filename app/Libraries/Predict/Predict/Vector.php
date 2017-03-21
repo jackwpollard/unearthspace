@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Libraries\Predict;
+
 /**
  * Predict_Vector - General three-dimensional vector structure.
  * Ported from sgp4sdp4.h.

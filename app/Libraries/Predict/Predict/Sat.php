@@ -1,21 +1,11 @@
 <?php
 
+namespace App\Libraries\Predict;
+
 /**
  * Ported to PHP from gpredict by Bill Shupp
  */
 
-require_once 'Predict.php';
-require_once 'Predict/SGPSDP.php';
-require_once 'Predict/Vector.php';
-require_once 'Predict/SGSDPStatic.php';
-require_once 'Predict/SGPObs.php';
-require_once 'Predict/Solar.php';
-require_once 'Predict/DeepArg.php';
-require_once 'Predict/DeepStatic.php';
-require_once 'Predict/Geodetic.php';
-require_once 'Predict/ObsSet.php';
-require_once 'Predict/Time.php';
-require_once 'Predict/Math.php';
 
 /**
  * Contains satellite data and related methods.

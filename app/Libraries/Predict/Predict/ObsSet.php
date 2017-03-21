@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Libraries\Predict;
+
 /**
  * Bearing to satellite from observer
  */

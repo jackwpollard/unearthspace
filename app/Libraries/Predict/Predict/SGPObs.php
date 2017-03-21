@@ -1,16 +1,13 @@
 <?php
 
+namespace App\Libraries\Predict;
+
 /**
  * Predict_SGPObs
  *
  * Ported to PHP by Bill Shupp.  Original comments below
  */
 
-require_once 'Predict/Math.php';
-require_once 'Predict/Time.php';
-require_once 'Predict.php';
-require_once 'Predict/Vector.php';
-require_once 'Predict/ObsSet.php';
 
 /*
  * Unit SGP_Obs

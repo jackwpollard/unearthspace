@@ -1,4 +1,7 @@
 <?php
+
+namespace App\Libraries\Predict;
+
 /**
  * Ported to PHP from sgp4sdp4.h by Bill Shupp
  */

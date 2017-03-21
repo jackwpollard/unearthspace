@@ -1,13 +1,12 @@
 <?php
+
+namespace App\Libraries\Predict;
 /*
  * Ported to PHP by Bill Shupp from the sgp4sdp4 code in gpredict
  *
  * Original comments below
  */
 
-require_once 'Predict.php';
-require_once 'Predict/Time.php';
-require_once 'Predict/Math.php';
 
 /* -*- Mode: C; tab-width: 4; indent-tabs-mode: t; c-basic-offset: 4 -*- */
 /*

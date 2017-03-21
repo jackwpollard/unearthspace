@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Libraries\Predict;
+
 /** Brief satellite pass info. */
 class Predict_Pass
 {

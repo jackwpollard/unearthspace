@@ -1,11 +1,13 @@
 <?php
+
+namespace App\Libraries\Predict;
+
 /**
  * Predict_Math
  *
  * Ported to PHP by Bill Shupp.  Original comments below
  */
 
-require_once 'Predict.php';
 
 /*
  * Unit SGP_Math

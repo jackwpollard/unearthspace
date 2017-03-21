@@ -1,9 +1,10 @@
 <?php
+
+namespace App\Libraries\Predict;
+
 /**
  * Ported from gpredict to PHP by Bill Shupp.  License: GPL 2.
  */
-
-require_once 'Predict/Exception.php';
 
 /**
  * Predict_TLE

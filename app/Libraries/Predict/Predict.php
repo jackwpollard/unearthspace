@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Libraries\Predict;
+
 /*
     A limited PHP port of the gpredict program, done by Bill Shupp.
     Original notes and author information is below.  GPL2 license.
@@ -35,16 +37,6 @@
     along with this program; if not, visit http://www.fsf.org/
 */
 
-require_once 'Predict/Time.php';
-require_once 'Predict/Math.php';
-require_once 'Predict/Pass.php';
-require_once 'Predict/PassDetail.php';
-require_once 'Predict/Vector.php';
-require_once 'Predict/Geodetic.php';
-require_once 'Predict/ObsSet.php';
-require_once 'Predict/Solar.php';
-require_once 'Predict/SGPObs.php';
-require_once 'Predict/SGPSDP.php';
 
 /**
  * The main Predict class.  Contains constants for use by other classes, as well as

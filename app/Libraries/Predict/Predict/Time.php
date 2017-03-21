@@ -1,12 +1,14 @@
 <?php
 
+namespace App\Libraries\Predict;
+
+use DateTime;
+use DateTimeZone;
+
 /*
  * Functions from sgp_time.c and time-tools.c (except where noted)
  * ported to PHP by Bill Shupp
  */
-
-require_once 'Predict.php';
-require_once 'Predict/Math.php';
 
 /*
  * Unit SGP_Time

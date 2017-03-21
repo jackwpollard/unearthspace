@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Libraries\Predict;
+
 /**
  * Geodetic position data structure.
  *

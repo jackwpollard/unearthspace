@@ -1,4 +1,7 @@
 <?php
+
+namespace App\Libraries\Predict;
+
 /**
  *  Port of deep_arg_t struct from sgp4sdp4.h
  */

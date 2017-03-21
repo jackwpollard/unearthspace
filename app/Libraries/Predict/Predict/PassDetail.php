@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Predict/Vector.php';
+namespace App\Libraries\Predict;
 
 /** Pass detail entry.
  *
