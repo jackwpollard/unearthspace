@@ -195,7 +195,7 @@ class SatellitePredictor {
 
         // override default options with $input_opts (array_intersect_key() ensures that
         // only keys present in $default_opts are retained from $input_opts)
-        $opts = array_merge($default_opts, array_intersect_key($opts, $default_opts));
+        $opts = array_merge($default_opts, array_intersect_key($input_opts, $default_opts));
 
         // get the current time as Julian date (daynum)
         $now = Predict_Time::get_current_daynum();
