@@ -6,7 +6,11 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*"
+        "egeloen/google-map": "^2.0",
+        "egeloen/serializer": "^1.0",
+        "laravel/framework": "5.3.*",
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/message": "^1.5"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

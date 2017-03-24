@@ -3,11 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use DB;
 
 class Satellite extends Model
 {
+    // URL to the set of Satellite TLEs
     const TLE_RESOURCE = 'http://www.celestrak.com/NORAD/elements/visual.txt';
+    // the number of lines a TLE set consists of
     const TLE_LINES = 3;
 
     protected $primaryKey = 'catalog_number';
@@ -15,7 +16,16 @@ class Satellite extends Model
     protected $hidden     = ['created_at'];
 
     /**
-     * Imports satellite TLE data into database
+     * Constructs the satellite two line element set in string format
+     *
+     * @return string The satellite TLE with title, line1 and line2 on separate lines
+     */
+    public function getTLEAttribute() {
+        return implode("\n", [$this->title, $this->tle_line_1, $this->tle_line_2]);
+    }
+
+    /**
+     * Imports satellite TLE sets into database
      *
      * @return void
      */

@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,6 +11,12 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/user', function (Request $request) {
-    return $request->user();
-})->middleware('auth:api');
+Route::group(['namespace' => 'Api'], function() {
+
+	Route::get('/satellites', 'SatelliteController@list');
+
+	Route::get('/satellites/{satellite}/passes', 'SatelliteController@passes');
+
+	Route::get('/satellites/{satellite}/position', 'SatelliteController@position');
+
+});
